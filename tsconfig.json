@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2016", // The JavaScript version to output
+        "module": "commonjs", // Module system used
+        "esModuleInterop": true, // Compatibility with CommonJS
+        "moduleResolution": "node", // Resolving module paths similar to Node.js
+        "strict": true, // Enable strict type checking
+        "outDir": "./.build", // Output directory for compiled JavaScript
+        "rootDir": "./src", // Root directory for your source files
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
