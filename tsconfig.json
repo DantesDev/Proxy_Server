@@ -6,10 +6,10 @@
         "moduleResolution": "node", // Resolving module paths similar to Node.js
         "strict": true, // Enable strict type checking
         "outDir": "./.build", // Output directory for compiled JavaScript
-        "rootDir": "./src", // Root directory for your source files
+        "rootDir": "api", // Root directory for your source files
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true
     },
-    "include": ["src/**/*.ts"],
+    "include": ["api/**/*.ts"],
     "exclude": ["node_modules"]
 }
