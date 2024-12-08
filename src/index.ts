@@ -2,8 +2,9 @@ import express, { Request, Response } from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 import axios from 'axios'
-import { Agent } from 'https'
+
 const PORT = 3300
+
 const app = express()
 app.use(
     cors({
@@ -30,8 +31,8 @@ app.use('/', async (req: Request, res: Response) => {
             'Content-Type, Authorization'
         )
         res.status(response.status).json(response.data)
-    } catch (_error) {
-        console.error('Error in proxy request')
+    } catch (error) {
+        console.error('Error in proxy request', error)
         res.status(500).json({ message: 'Proxy error' })
     }
 })
