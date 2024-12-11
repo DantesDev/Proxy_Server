@@ -28,6 +28,7 @@
     "@types/mongodb": "^4.0.6",
     "@typescript-eslint/eslint-plugin": "^8.18.0",
     "@typescript-eslint/parser": "^8.18.0",
+    "@vercel/node": "^3.2.29",
     "eslint": "^9.16.0",
     "husky": "^9.1.7",
     "nodemon": "^2.0.4",
