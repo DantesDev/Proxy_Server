@@ -38,9 +38,7 @@ app.use('/', async (req: Request, res: Response) => {
     res.status(500).json({ message: 'Proxy error' });
   }
 });
-app.get('/', (req, res) => {
-  res.send('Express on Vercel');
-});
+
 const port = PORT || 5000;
 app.listen(port, () => {
   console.info(`server running on port ${port}`);
