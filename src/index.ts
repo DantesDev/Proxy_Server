@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const PORT = 3300;
 
-const TARGET = 'https://server.antfarm.finance';
+const TARGET = 'https://cache-half-full-production.fly.dev';
 
 const app = express();
 app.use(
