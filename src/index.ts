@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const PORT = 3300;
 
-const TARGET = 'https://cache-half-full-production.fly.dev';
+const TARGET = 'https://api.stablz.one';
 
 const app = express();
 app.use(
