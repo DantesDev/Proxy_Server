@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const PORT = 3300;
 
-const TARGET = 'https://cache-half-full-production.fly.dev';
+const TARGET = process.env.PROXY_TARGET || '';
 
 const app = express();
 app.use(
