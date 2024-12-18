@@ -2,6 +2,9 @@ import express, { Request, Response } from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import axios from 'axios';
+import { config } from 'dotenv';
+
+config();
 
 const PORT = 3300;
 
